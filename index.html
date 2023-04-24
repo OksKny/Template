@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <title>Template</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="header__container">
+        <div class="logo">Logo</div>
+        <div class="header__contacts">
+            <a class="header__contacts-num" href="tel:+79625561234">+7 (962) 556 - 1234</a>
+            <a class="header__contacts-tel" href="#call">Перезвоните мне</a>
+        </div>
+        <a class="header__phone" href="#call"><img src="assets/img/phone.svg" alt=""></a>
+    </div>
+</header>
+
+<main>
+    <div class="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <h1 class="intro__title">Заголовок c уникальным торговым предложение по системе 4U</h1>
+                <p class="intro__text">Описания предлжения компании. Сайт рыбатекст поможет дизайнеру, верстальщику,
+                вебмастеру сгенерировать несколько абзацев более <span class="intro__text-none"> менее осмысленного текста рыбы на русском языке, 
+                а начинающему.</span></p>
+                <a class="intro__button" href="#about">Подробнее</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="section about" id="about">
+        <div class="container">
+            <h2 class="about__title">Уникальный заголовок для преимущества компании</h2>
+            <h3 class="about__subtitle">О нас</h3>
+            <p class="about__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,
+            а начинающему оратору отточить.</p>
+            <ol class="about__list">
+                <li class="about__item">Первое целевое преимущество</li>
+                <li class="about__item">Второе целевое преимущество</li>
+                <li class="about__item">Третье целевое преимущество</li>
+                <li class="about__item">Четвертое целевое преимущество</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="section call" id="call">
+        <div class="container">
+            <h2 class="call__title">Остались вопросы?</h2>
+            <form class="call__form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
+                <fieldset class="call__fieldset">
+                    <legend class="call__subtitle">Оставьте номер телефона, и мы перезвоним вам</legend>
+                    <label class="call__lable" for="name"></label>
+                    <input class="call__input" placeholder="Ваше имя" type="text" name="name" id="name" required>
+                    <label class="call__lable" for="phone"></label>
+                    <input class="call__input" placeholder="Телефон" type="tel" name="phone" id="phone" required>
+                    <label class="call__lable" for="email"></label>
+                    <input class="call__input" placeholder="E-mail" type="email" name="email" id="email" required>
+                </fieldset>
+                <button class="call__button" type="submit">Позвоните мне</button>
+            </form>
+           
+            <p class="call__text">Я даю своё <a class="call__link" href="#">согласие</a> на обработку моих персональных данных.</p>
+        </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="footer__container">
+        <div class="footer__block-one">
+            <div class="logo footer__logo">Logo</div>
+            <div class="footer__block-two">
+                <p class="footer__text">© 2022 XXXcompany. Все права защищены.</p>
+            </div>
+        </div>
+        <p class="footer__text footer__text-none">Сделано Ивановым Иваном</p>
+        <div class="footer__contacts">
+            <a class="footer__contacts-num" href="tel:+79625561234">+7 (962) 556 - 1234</a>
+            <a class="footer__contacts-tel" href="#call">Перезвоните мне</a>
+        </div>
+        <a class="footer__phone" href="#call"><img src="assets/img/phone.svg" alt=""></a>
+        
+    </div>
+    <div class="footer__subblock">
+        <p class="footer__subtext">Сделано Ивановым Иваном</p>
+        </div>
+</footer>
+</body>
+</html>

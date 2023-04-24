@@ -1,0 +1,163 @@
+.about__title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 41px;
+    color: #383A4C;
+    margin-bottom: 25px;
+}
+
+.about__subtitle {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #383A4C;
+    margin-bottom: 35px;
+}
+
+.about__subtitle::before {
+    content: "";
+    display: inline-block;
+    background: #383A4C;
+    width: 43px;
+    height: 2px;
+    margin: 0 23px 4px 0;
+}
+
+.about__subtitle::after {
+    content: "";
+    display: inline-block;
+    background: #383A4C;
+    width: 43px;
+    height: 2px;
+    margin: 0 0 4px 23px;
+}
+
+.about__text {
+    max-width: 724px;
+    margin: 0 auto 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #383A4C;
+}
+
+.about__list {
+    display: flex;
+    counter-reset: myCounter;
+    text-align: center;
+    padding: 0;
+}
+
+.about__item {
+    list-style: none;
+    color: #383A4C;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 0 30px;
+}
+
+.about__item:before {
+    counter-increment: myCounter;
+    content: counter(myCounter);
+    color: #FFFFFF;
+    font-size: 57px;
+    display: block;
+    text-align: center;
+    line-height: normal;
+    height: 122px;
+    width: 122px;
+    background: #23C7EC;
+    border-radius: 50%;
+    margin: 0 auto 16px;
+    padding: 27px 44px;
+}
+
+@media (max-width: 1024px) {
+    .about__title {
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 23px;
+    }
+
+    .about__subtitle {
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 33px;
+    }
+
+    .about__subtitle::before {
+        width: 40px;
+        height: 2px;
+    }
+
+    .about__subtitle::after {
+        width: 40px;
+        height: 2px;
+    }
+
+    .about__text {
+        font-size: 16px;
+        line-height: 23px;
+        margin-bottom: 50px;
+    }
+
+    .about__item {
+        font-size: 18px;
+        padding: 0;
+    }
+
+    .about__item:before {
+        height: 104px;
+        width: 104px;
+        padding: 20px 0;
+        font-size: 52px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .about__title {
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 15px;
+    }
+
+    .about__subtitle {
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 15px;
+    }
+
+    .about__subtitle::before {
+        width: 19.71px;
+        height: 1px;
+    }
+
+    .about__subtitle::after {
+        width: 19.71px;
+        height: 1px;
+    }
+
+    .about__text {
+        font-size: 12px;
+        line-height: 17px;
+        margin-bottom: 40px;
+    }
+
+    .about__list  {
+        flex-wrap: wrap;
+    }
+
+    .about__item {
+        padding: 20px 15px;
+    }
+
+    .about__item:last-child {
+        padding-bottom: 0;
+    }
+
+    .about__item:first-child {
+        padding-top: 0;
+    }
+}
