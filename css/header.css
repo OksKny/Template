@@ -125,24 +125,6 @@
         line-height: 25px;
     }
 }
-    
-    @media (max-width: 540px) {
-    .header__container {
-        padding: 19px 20px 0 20px;
-        margin-bottom: 65px;
-    }
-    
-    .header__title {
-        font-size: 30px;
-        line-height: 35px;
-    }
-
-    .header__text {
-        font-size: 25px;
-        line-height: 30px;
-        margin-bottom: 54px;
-        }
-}
 
 @media (max-width: 620px) {
     .logo {
@@ -161,11 +143,38 @@
     .contacts-tel {
         font-size: 12px;
     }
-
-
 }
 
-@media (max-width: 320px) {
+@media (max-width: 540px) {
+    .header__container {
+        padding: 19px 20px 0 20px;
+        margin-bottom: 65px;
+    }
+    
+    .header__title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .header__text {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 54px;
+        }
+}
+
+@media (max-width: 410px) {
+    .contacts-num {
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+
+    .contacts-tel {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 380px) {
     .header {
         background-image: url("../assets/img/bg1__320.jpg");
         background-repeat: no-repeat;
