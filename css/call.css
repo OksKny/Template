@@ -80,65 +80,66 @@ margin-bottom: 93px;
 }
 
 @media (max-width: 1024px) {
-.call {
-    background-image: url("../assets/img/bg2_1200.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    .call {
+        background-image: url("../assets/img/bg2_1200.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .call__title {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .call__subtitle {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .call__input {
+        width: 377px;
+        font-size: 20px;
+    }
+
+    .call__text {
+        font-size: 17px;
+    }
 }
 
-.call__title {
-    font-size: 32px;
-    line-height: 38px;
-}
-
-.call__subtitle {
-    font-size: 20px;
-    line-height: 23px;
-}
-
-.call__input {
-    width: 377px;
-    font-size: 20px;
-}
-
-.call__text {
-    font-size: 17px;
-}
-
+@media (max-width: 400px) {
+    .call__input {
+        width: 290px;
+        padding: 6px 21px;
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 320px) {
-.call__fieldset {
-    margin-bottom: 45px;
+    .call__fieldset {
+        margin-bottom: 45px;
+    }
+
+    .call__title {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .call__subtitle {
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        max-width: 290px;
+        margin-bottom: 35px;
+    }
+
+    .call__button {
+        padding: 10px 26px;
+        font-size: 16px;
+        margin-bottom: 30px;
 }
 
-.call__title {
-    font-size: 20px;
-    line-height: 23px;
-}
-
-.call__subtitle {
-    font-size: 12px;
-    line-height: 14px;
-    text-align: center;
-    max-width: 290px;
-    margin-bottom: 35px;
-}
-
-.call__input {
-    width: 290px;
-    padding: 6px 21px;
-    font-size: 14px;
-}
-
-.call__button {
-    padding: 10px 26px;
-    font-size: 16px;
-    margin-bottom: 30px;
-}
-
-.call__text {
-    font-size: 11px;
-}
+    .call__text {
+        font-size: 11px;
+    }
 }
