@@ -4,14 +4,13 @@
     background-position: center;
     background-size: cover;
     background-color: #2F324B;
-    min-height: 621px;
 }
 
 .call__title {
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 2px;
-    line-height: 70px;
+    margin-bottom: 18px;
+    line-height: 41px;
     letter-spacing: 1px;
 }
 
@@ -21,14 +20,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 51px;
+    margin-bottom: 50px;
 }
 
 .call__subtitle {
 font-weight: 500;
 font-size: 22px;
 color: rgba(255, 255, 255, 0.8);
-margin-bottom: 51px;
+margin-bottom: 54px;
 }
 
 .call__input {

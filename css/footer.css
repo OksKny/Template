@@ -5,12 +5,12 @@
 }
 
 .footer__container {
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 159px;
-    min-height: 158px;
-    
+    padding: 45px 0;
 }
 
 .footer__block-one {
@@ -45,7 +45,7 @@
         height: 47px;
         background-color: #2A2C3F;
         position: absolute;
-        top: 157px;
+        top: 123px;
         left: 0;
         text-align: center;
         padding: 15px 0;
@@ -61,7 +61,7 @@
 
 @media (max-width: 320px) {
     .footer__container {
-        min-height: 80px;
+        padding: 25px 0;
     }
     
     .footer__text {
